@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with JohnDoe landing page.">
+    <meta name="author" content="Devcrud">
+    <title>JohnDoe Landing page | Free Bootstrap 4.3.x landing page</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + JohnDoe main styles -->
+	<link rel="stylesheet" href="assets/css/johndoe.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
+    <header class="header">
+        <div class="container">
+            <ul class="social-icons pt-3">
+                <li class="social-item"><a class="social-link text-light" href="https://www.facebook.com/profile.php?id=100030820330317"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://www.instagram.com/ranaumair96/"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                <li class="social-item"><a class="social-link text-light" href="https://github.com/RanaUmair000"><i class="ti-github" aria-hidden="true"></i></a></li>
+            </ul>  
+            <div class="header-content">
+                <h4 class="header-subtitle" >Hello, I am</h4>
+                <h1 class="header-title">M Umair</h1>
+                <h6 class="header-mono" >Full Stack Web Developer</h6>
+                <button class="btn btn-primary btn-rounded" onclick="downloadResume()"><i class="ti-printer pr-2"></i>Print Resume</button>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar cus-nav sticky-top navbar-expand-lg navbar-light bg-black" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Projects</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand">
+                    <img src="assets/imgs/round_img.jpg" alt="" class="brand-img">
+                    <li class="brand-txt">
+                        <h5 class="brand-title" style="color: white;">Muhammad Umair</h5>
+                        <div class="brand-subtitle" style="color: #e7e7e7">Web Designer | Developer</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#hire_me" class="nav-link">Hire Me</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#service" class="nav-link">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="about" class="row about-section">
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Who am I ?</h3>
+                <span class="line mb-5"></span>
+                <h5 class="mb-3">A Web Designer & Developer creating user-friendly websites.</h5>
+                <p class="mt-20">I'm a BS Software Engineering student and a web developer with experience in PHP, JavaScript, and frontend design. I enjoy building clean, functional websites and solving real-world problems through code.</p>
+                <button onclick="downloadCV()" class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">Personal Info</h3>
+                <span class="line mb-5"></span>
+                <ul class="mt40 info list-unstyled">
+                    <!-- <li><span>Birthdate</span> : 09/13/1996</li> -->
+                    <li><span>Email</span> : ranaumairfyp@gmail.com</li>
+                    <li><span>Phone</span> : +92 3234051809</li>
+                    <li><span>Linkedin</span> : Muhammad Umair </li>
+                    <li><span>Location</span> :  Lahore, Pakistan</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 about-card">
+                <h3 class="font-weight-light">My Expertise</h3>
+                <span class="line mb-5"></span>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Responsive Designs</h6>
+                        <p class="subtitle">Seamless, adaptive designs for all devices.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Backend Engineer</h6>
+                        <p class="subtitle">Building scalable, high-performance server solutions.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1 text-danger pt-1" style="padding-left: 10px;"><svg style="height: 37px;
+                        display: block;
+                        width: 37px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#F85C70" version="1.1" id="Capa_1" width="800px" height="800px" viewBox="0 0 31.771 31.771" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M31.771,20.319c0-0.474-0.279-0.87-0.676-1.066V11.9c0.09-0.034,0.146-0.119,0.145-0.214c0-0.095-0.062-0.179-0.149-0.21    L15.92,6.125c-0.194-0.069-0.406-0.069-0.601,0L0.15,11.477c-0.089,0.031-0.149,0.115-0.15,0.21s0.056,0.18,0.144,0.214    l15.148,5.896c0.211,0.081,0.444,0.081,0.655,0l14.102-5.492v6.947c-0.396,0.195-0.675,0.594-0.675,1.065    c0,0.492,0.3,0.919,0.729,1.102c-0.429,0.847-0.729,2.585-0.729,3.081c0,0.661,0.537,1.197,1.198,1.197    c0.66,0,1.197-0.536,1.197-1.197c0-0.496-0.301-2.234-0.729-3.081C31.47,21.238,31.771,20.811,31.771,20.319z"/>
+                                <path d="M4.888,14.87c0.001,1.696,0.002,3.692,0.002,4.009c0,3.158,4.753,5.729,10.73,5.89c5.976-0.161,10.729-2.729,10.729-5.89    c0-0.315,0-2.312,0.002-4.009l-10.406,4.051c-0.211,0.082-0.444,0.082-0.655,0L4.888,14.87z"/>
+                            </g>
+                        </g>
+                    </svg></div>
+                    <div class="col-10 ml-auto mr-3">
+                        <h6>Software Engineer</h6>
+                        <p class="subtitle">Developing efficient, maintainable software systems.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section bg-custom-gray" id="portfolio">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">My</span> Projects</h1>
+            <div class="portfolio">
+                <div class="filters">
+                    <a href="#" data-filter=".new" class="active">
+                        Experienced
+                    </a>
+                    <a href="#" data-filter=".advertising">
+                        Laravel
+                    </a>
+                    <a href="#" data-filter=".branding">
+                        JavaScript
+                    </a>
+                    <a href="#" data-filter=".web">
+                        Frontend
+                    </a>
+                    <a href="#" data-filter=".game">
+                        Games
+                    </a>
+                </div>
+                <div class="portfolio-container"> 
+                    <div class="col-md-6 col-lg-4 new advertising">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/e_commerece.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/e_commerece.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">E Commerece Site</h6>
+                                    <p class="subtitle">Built using php and Laravel with great functionalities</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/kaira-1.0.0" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>             
+                    </div>
+                    <div class="col-md-6 col-lg-4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/trt.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/trt.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">TRT Doctors</h6>
+                                    <p class="subtitle">I built this project during job at Metaviz Pro</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://metaviz.pro/" style="background-color: white; padding:10px 20px; border-radius: 6px;">On Job</a>
+                                        <a href="https://www.findlocaltrtdoctors.com/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>                         
+                    </div>
+                    <div class="col-md-6 col-lg-4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/hit_local.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/hit_local.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Hit Local Hub</h6>
+                                    <p class="subtitle">I built this project during job at Metaviz Pro</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="" style="background-color: white; padding:10px 20px; border-radius: 6px;">On Job</a>
+                                        <a href="https://www.hitlocalhub.com.au/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div> 
+
+                    <div class="col-md-6 col-lg-4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/rppa.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/rppa.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">RPPA.ORG</h6>
+                                    <p class="subtitle">I built this project during job at Metaviz Pro</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="" style="background-color: white; padding:10px 20px; border-radius: 6px;">On Job</a>
+                                        <a href="https://rppa.org/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4 new">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/legalmenot.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/legalmenot.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">LegalMeNot</h6>
+                                    <p class="subtitle">I built this project during job at Metaviz Pro</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="" style="background-color: white; padding:10px 20px; border-radius: 6px;">On Job</a>
+                                        <a href="https://legalmenot.com/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>              
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/construction.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/construction.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Advanced Construction</h6>
+                                    <p class="subtitle">This site is built using HTML, CSS, JAVASCRIPT</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/Construction_Website" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://constructionwebmadebyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 advertising"> 
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/crud.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/crud.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">CRUD SYSTEM</h6>
+                                    <p class="subtitle">This Project contains the laravel Crud system</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/Laravel_CRUD" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                       
+                    </div> 
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/medical.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/medical.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Medical Tourisem</h6>
+                                    <p class="subtitle">This Web is made using frontend tecnologies</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/Medical_Website" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://medicalwebmadybyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/portfolio.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/portfolio.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Portfolio</h6>
+                                    <p class="subtitle">This portfolio website uses HTML, CSS, Javascript</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/Portfolio_Website" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://portfoliowebmadebyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/hotel.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/hotel.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">DreamTours</h6>
+                                    <p class="subtitle">DreamTours is made with HTML, CSS, Javascript</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/DreamTours_Website" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://dreamtourmadybyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 web">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/lendo.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                           <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/lendo.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Lendo Website</h6>
+                                    <p class="subtitle">DreamTours is made with HTML, CSS, Javascript</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/Lendo_Website" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://lendamadebyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div>
+                    <div class="col-md-6 col-lg-4 branding game">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/dice.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/dice.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Dice Rolling Game</h6>
+                                    <p class="subtitle">This game uses core concepts of Vanilla JavaScript</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/Dice_Rolling_Game_with_Javascript" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://dicerollingmadebyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding game">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/guess.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/guess.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Guess My Number</h6>
+                                    <p class="subtitle">This game is made with Javascript Core concepts</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/Guess_my_number_game" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://numberguessingmadebyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/calculator.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/calculator.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Calculator App</h6>
+                                    <p class="subtitle">This calculator is built using React JS.</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/React_Calculator" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://calculatormadybyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                     
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/todo.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/todo.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">TO DO App</h6>
+                                    <p class="subtitle">This to do app is made using React JS</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/React-JS-To-Do-App" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://todomadebyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/newsapp.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/newsapp.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">News Monkey</h6>
+                                    <p class="subtitle">This news app is made using React JS</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/newsapp" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://newmonkeymadebyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div> 
+                    <div class="col-md-6 col-lg-4 branding">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/textutills.JPG" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
+                            <div class="content-holder">
+                                <a class="img-popup" href="assets/imgs/textutills.JPG"></a>
+                                <div class="text-holder">
+                                    <h6 class="title">Text Utills</h6>
+                                    <p class="subtitle">This text utills is made in React JS</p>
+                                    <div class="link_flex" style="display: flex; justify-content: space-around;">
+                                        <a href="https://github.com/RanaUmair000/myproject" style="background-color: white; padding:10px 20px; border-radius: 6px;">Get Code</a>
+                                        <a href="https://textutillsmadebyumair.netlify.app/" style="background-color: white; padding:10px 20px; border-radius: 6px;"">Live Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div> 
+                </div> 
+            </div>  
+        </div>            
+    </section>
+
+    <!--Resume Section-->
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5"><span class="text-danger">My</span> Resume</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Expertise</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2025 - Present</h6>
+                            <P>Laravel Developer</P>
+                            <P class="subtitle">Building modern, scalable web applications with Laravel’s elegant framework.</P>
+                            <hr>
+                            <h6 class="title text-danger">2024 - 2025</h6>
+                            <p>PHP Developer (Backend)</p>
+                            <p class="subtitle">Developing secure and scalable backend systems using PHP on Brilliant Directories.</p>
+
+                            <hr>
+                            <h6 class="title text-danger">2023 - 2024</h6>
+                            <p>Frontend Developer (HTML, CSS, JavaScript)</p>
+                            <p class="subtitle">Worked with responsive, user-focused interfaces with clean and efficient code at <b>Metaviz Pro.</b></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2023 - Present</h6>
+                            <P>B.S Software Engineering</P>
+                            <P class="subtitle">Pursuing a Bachelor's in Software Engineering with a focus on building scalable software solutions, mastering programming concepts, and solving real-world tech challenges.</P>
+                            <hr>
+                            <h6 class="title text-danger">2021 - 2023</h6>
+                            <P>Introduction to Computer Sciences</P>
+                            <P class="subtitle">Completed Intermediate in Computer Science with a strong focus on programming, mathematics, and logical problem-solving—laying the groundwork for a career in technology.</P>
+                            <hr>
+                            <h6 class="title text-danger">2019 - 2021</h6>
+                            <P>High School Degree</P>
+                            <P class="subtitle">Achieved essential knowledge and discipline for future success.</P>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Skills</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>HTML &amp; CSS3</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Bootstrap</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>JavaScript</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>PHP</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>SQL</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 92%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Laravel</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 78%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>jQuery</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Languages</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                           <h6>English</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>Urdu</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 99%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="section bg-dark text-center">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="row ">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">500</h1>
+                            <p class="text-light mb-1">Hours Worked</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">50K</h1>
+                            <p class="text-light mb-1">Project Finished</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">200K</h1>
+                            <p class="text-light mb-1">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="row">
+                        <div class="col-5 text-right text-light border-right py-3">
+                            <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
+                        </div>
+                        <div class="col-7 text-left py-3">
+                            <h1 class="text-danger font-weight-bold font40">2k</h1>
+                            <p class="text-light mb-1">Coffee Drinked</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="section bg-dark py-5" id="hire_me">
+        <div class="container text-center">
+            <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
+            <button class="btn bg-primary w-lg" >Hire me</button>
+        </div>
+    </section>
+
+
+    <section class="section" id="service">
+        <div class="container">
+            <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-vector text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Frontend Development</h5>
+                            <P class="subtitle">I specialize in crafting responsive, user-friendly interfaces using HTML, CSS, and JavaScript. With an eye for detail and design, I ensure every website looks great and works smoothly across all devices. From static pages to interactive components, I bring ideas to life with clean, well-structured code that enhances user experience and performance.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-write text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Backend Development</h5>
+                            <P class="subtitle">I develop secure, scalable backend systems using PHP and Laravel. From building APIs to managing databases, I ensure seamless communication between the frontend and server. My focus is on performance, security, and clean architecture to power reliable, efficient, and maintainable web applications.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-package text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Laravel Engineer</h5>
+                            <P class="subtitle">As a Laravel Engineer, I build robust and efficient web applications using Laravel’s powerful features. From routing and authentication to API integration and database management, I ensure clean, scalable code that supports fast performance, security, and long-term maintainability for modern web solutions.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-map-alt text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">API Integration</h5>
+                            <P class="subtitle">I specialize in integrating third-party APIs to extend your application's functionality—whether it’s payment gateways, social logins, or data services. With clean, secure implementation and proper error handling, I ensure smooth communication between systems, enhancing performance, usability, and the overall user experience.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Git Workflow Training</h5>
+                            <P class="subtitle">I implement efficient Git workflows to streamline collaboration, version control and code management. From branching strategies to pull requests, I ensure smooth development processes, clean commit history,  team-friendly practices that support scalable and maintainable codebases across projects of any size.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-5">
+                       <div class="card-header has-icon">
+                            <i class="ti-support text-danger" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-body px-4 py-3">
+                            <h5 class="mb-3 card-title text-dark">Bug Fixing & Debugging</h5>
+                            <P class="subtitle">I specialize in identifying and resolving bugs across frontend and backend systems. With careful debugging techniques and thorough testing, I fix performance issues, layout problems, and logic errors—ensuring your website or application runs smoothly, reliably, and delivers the best user experience possible.</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="section bg-custom-gray" id="price">
+        <div class="container">
+            <h1 class="mb-5"><span class="text-danger">Packs</span> Pricing</h1>
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Free</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">0</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">5 <span class="text-muted">Project</span></li>
+                            <li class="list-item">1GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item"><span class="text-muted">No Domain</span></li>
+                            <li class="list-item">1 <span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Basic</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">10</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">50 <span class="text-muted">Project</span></li>
+                            <li class="list-item">10GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item">1<span class="text-muted">Domain</span></li>
+                            <li class="list-item">5 <span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center price-card-requried mb-4">
+                        <h3 class="price-card-title">Exclusive</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">25</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">150 <span class="text-muted">Project</span></li>
+                            <li class="list-item">15GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item">5<span class="text-muted"> Domain</span></li>
+                            <li class="list-item">15<span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="price-card text-center mb-4">
+                        <h3 class="price-card-title">Pro</h3>
+                        <div class="price-card-cost">
+                            <sup class="ti-money"></sup>
+                            <span class="num">99</span>
+                            <span class="date">MO</span>
+                        </div>
+                        <ul class="list">
+                            <li class="list-item">500 <span class="text-muted">Project</span></li>
+                            <li class="list-item">1000GB <span class="text-muted">Storage</span></li>
+                            <li class="list-item">10<span class="text-muted"> Domain</span></li>
+                            <li class="list-item">Unlimite<span class="text-muted">User</span></li>
+                        </ul>
+                        <button class="btn btn-primary btn-rounded w-lg">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+
+    <!-- Portfolio Section -->
+    
+    <!-- End of portfolio section -->
+
+    <!-- <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">Latest <span class="text-danger">News</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Consectetur adipisicing elit</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
+                            <a href="#"><i class="ti-comment"></i> 123</a>
+                        </p>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium neque numquam mollitia modi quasi distinctio.</p>
+
+                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b></p>
+                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+                <!-- blog-card
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog2.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">Explicabo illo</h6>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+                            <a href="#"><i class="ti-comment"></i> 264</a>
+                        </p>
+                        
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div><!-- end of blog wrapper -->
+                <!-- blog-card 
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="assets/imgs/blog3.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Porro Quisqua</h4>
+
+                        <p class="post-details">
+                            <a href="#">By: Admin</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 431</a>
+                            <a href="#"><i class="ti-comment"></i> 312</a>
+                        </p>
+                        
+                        <p> consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
+
+                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    </div>
+                </div> end of blog wrapper 
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <div class="section contact" id="contact">
+        <div id="map" class="map"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contact-form-card">
+                        <h4 class="contact-title">Send a message</h4>
+                        <form action="">
+                            <div class="form-group">
+                                <input  class="form-control" type="text" placeholder="Name *" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email *" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
+                            </div>
+                            <div class="form-group ">
+                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-info-card">
+                        <h4 class="contact-title">Get in touch</h4>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-mobile icon-md"></i>
+                            </div>
+                            <div class="col-10 ">
+                                <h6 class="d-inline">Phone : <br> <span class="text-muted">+ (123) 456-789</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-map-alt icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Address :<br> <span class="text-muted">12345 Fake ST NoWhere AB Country.</span></h6>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-1 pt-1 mr-1">
+                                <i class="ti-envelope icon-md"></i>
+                            </div>
+                            <div class="col-10">
+                                <h6 class="d-inline">Email :<br> <span class="text-muted">info@website.com</span></h6>
+                            </div>
+                        </div>
+                        <ul class="social-icons pt-4">
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
+                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+    <footer class="footer py-3">
+        <div class="container">
+            <p class="small mb-0 text-light text-cetnter">
+                &copy; <script>document.write(new Date().getFullYear())</script> Created By <a href="https://www.linkedin.com/in/muhammad-umair-a2b205327" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">Muhammad Umair</span></a> 
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function downloadResume() {
+            const link = document.createElement('a');
+            link.href = 'assets/imgs/resume.pdf';
+            link.download = 'Umair_CV.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        function downloadCV(){
+            const link = document.createElement('a');
+            link.href = 'assets/imgs/cv.pdf';
+            link.download = 'Umair_CV.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+    </script>
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Isotope  -->
+    <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
+    
+    <!-- Google mpas -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- JohnDoe js -->
+    <script src="assets/js/johndoe.js"></script>
+
+</body>
+</html>
