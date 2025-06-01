@@ -11697,7 +11697,7 @@ pre .code {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 500px){
   .header{
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../imgs/my_bg_compp.png');
 

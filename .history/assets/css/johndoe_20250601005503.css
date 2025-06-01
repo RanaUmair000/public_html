@@ -11697,13 +11697,6 @@ pre .code {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 768px){
-  .header{
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../imgs/my_bg_compp.png');
-
-  }
-}
-
 @media only screen and (max-width: 400px){
   .portfolio .filters{
     flex-direction: column;

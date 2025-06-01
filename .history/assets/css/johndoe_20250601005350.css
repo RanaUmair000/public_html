@@ -11520,8 +11520,9 @@ pre .code {
   min-height: 600px;
   /* background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg); */
-  background-image: url('../imgs/my_bg_compp.png');
-  
+  /* background-image: url('../imgs/my_bg_compp.png'); */
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)), url('../imgs/my_bg_compp.png');
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -11695,13 +11696,6 @@ pre .code {
   background: #F85C70;
   display: block;
   margin-top: 10px;
-}
-
-@media screen and (max-width: 768px){
-  .header{
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../imgs/my_bg_compp.png');
-
-  }
 }
 
 @media only screen and (max-width: 400px){
