@@ -11700,7 +11700,7 @@ pre .code {
 @media screen and (max-width: 768px){
   .header{
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../imgs/my_bg_compp.png');
-    min-height: 580px;
+    
   }
 }
 
